@@ -1,0 +1,125 @@
+/* Has gcc/MSVC atomic intrinsics */
+#mesondefine HAVE_ATOMIC_BUILTINS
+
+/* Define to 1 if you have the <ctype.h> header file. */
+#mesondefine HAVE_CTYPE_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#mesondefine HAVE_DLFCN_H
+
+/* Define to 1 if you have the <endian.h> header file. */
+#mesondefine HAVE_ENDIAN_H
+
+/* Define to 1 if you have the <errno.h> header file. */
+#mesondefine HAVE_ERRNO_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#mesondefine HAVE_FCNTL_H
+
+/* Define to 1 if you have the <float.h> header file. */
+#mesondefine HAVE_FLOAT_H
+
+/* Define to 1 if you have the `getpagesize' function. */
+#mesondefine HAVE_GETPAGESIZE
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#mesondefine HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <libgen.h> header file. */
+#mesondefine HAVE_LIBGEN_H
+
+/* Define to 1 if you have the <limits.h> header file. */
+#mesondefine HAVE_LIMITS_H
+
+/* Define to 1 if you have the <machine/endian.h> header file. */
+#mesondefine HAVE_MACHINE_ENDIAN_H
+
+/* Define to 1 on Darwin */
+#mesondefine HAVE_MACH_MACH_TIME_H
+
+/* Define to 1 if you have the <math.h> header file. */
+#mesondefine HAVE_MATH_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#mesondefine HAVE_MEMORY_H
+
+/* Define to 1 if you have a working `mmap' system call. */
+#mesondefine HAVE_MMAP
+
+/* Define to 1 if you have the 'crypto' library (-lcrypto). */
+#mesondefine HAVE_OPENSSL
+
+/* Define to 1 if you have the <regex.h> header file. */
+#mesondefine HAVE_REGEX_H
+
+/* Define to 1 if you have the <stdarg.h> header file. */
+#mesondefine HAVE_STDARG_H
+
+/* Define to 1 if you have the <stdbool.h> header file. */
+#mesondefine HAVE_STDBOOL_H
+
+/* Define to 1 if you have the <stddef.h> header file. */
+#mesondefine HAVE_STDDEF_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#mesondefine HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#mesondefine HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#mesondefine HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#mesondefine HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#mesondefine HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/endian.h> header file. */
+#mesondefine HAVE_SYS_ENDIAN_H
+
+/* Define to 1 if you have the <sys/mman.h> header file. */
+#mesondefine HAVE_SYS_MMAN_H
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#mesondefine HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#mesondefine HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#mesondefine HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#mesondefine HAVE_UNISTD_H
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#define LT_OBJDIR ".libs/"
+
+/* Name of package */
+#define PACKAGE "libucl"
+
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "https://github.com/vstakhov/libucl"
+
+/* Define to the full name of this package. */
+#define PACKAGE_NAME "libucl"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "libucl 0.8.0"
+
+/* Define to the one symbol short name of this package. */
+#define PACKAGE_TARNAME "libucl"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "0.8.0"
+
+/* Define to 1 if you have the ANSI C header files. */
+#define STDC_HEADERS 1
+
+/* Version number of package */
+#define VERSION "0.8.0"
