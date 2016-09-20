@@ -373,7 +373,7 @@ public:
 		return default_val;
 	}
 
-	const std::string string_value (const std::string& default_val = "") const
+	std::string string_value (const std::string& default_val = "") const
 	{
 		const char* res = nullptr;
 
